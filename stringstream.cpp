@@ -5,11 +5,11 @@ using namespace std;
 
 vector<int> parseInts(string str) {
 	// Complete this function
-    stringstream ss(str);   //??
+    stringstream ss(str);  
 vector<int> result;
 char ch;
 int tmp;
-while(ss >> tmp) {      //??
+while(ss >> tmp) {      
     result.push_back(tmp);
     ss >> ch;  
 }
